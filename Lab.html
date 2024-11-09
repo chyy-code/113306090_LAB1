@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homepage</title>
+</head>
+<body>
+
+<table border = "1">
+
+<thead>
+	<tr>
+		<th colspan = "4">
+		About--113306090</th>
+	</tr>
+</thead>
+
+<tbody>
+	<tr>
+		<td rowspan = "4">
+		<img src="5cdc95e757059c1187d1afe0ceb60371.jpg"alt="5cdc95e757059c1187d1afe0ceb60371" width="200" height="200" />
+		<br>
+		personal photo</td>
+	</tr>
+
+	<tr>
+	<p>
+		<td colspan = "4">  
+			<form action = "action_page.php">
+				Name:<input type = "text" name = "Name" autofocus>
+			</form>
+			<form method="post"action="http://www.deitel.com">
+				Gender: 
+				<input type="radio" name="gender" value="male"> Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other"> Other
+			</form>
+		</td> 
+	</p>
+	</tr>
+
+	<tr>
+		<td>
+			<form action="/action_page.php">
+				County: <select name="County">
+					<option value="Taipei">Taipei</option>
+					<option value="Tainan">Tainan</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Taoyuan">Taoyuan</option>
+				</select>
+		</td>
+		<td>
+			<form action="/action_page.php">
+				Birthday:<label for="birthday">Birthday:</label>
+					<input type="date" id="birthday" name="birthday">
+			</form>
+
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan = "4">
+			<form>
+				E-mail: <input type="email" name="email">
+			</form>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Hobby</td>
+
+		<td colspan = "4">
+			<form action="/action_page.php" method="get">
+				<input type="checkbox" name="Hobby" value="Swimming">Swimming
+				<input type="checkbox" name="Hobby" value="Volleyball">Volleyball
+				<input type="checkbox" name="Hobby" value="Movie">Movie
+				<input type="checkbox" name="Hobby" value="Game">Game
+				<input type="checkbox" name="Hobby" value="sleep">sleep
+			</form>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Skill</td>
+
+		<td colspan = "4">
+			<form action="/action_page.php"method="get">
+				<input type="checkbox" name="Skill" value="Java">Java
+				<input type="checkbox" name="Skill" value="HTML">HTML
+				<input type="checkbox" name="Skill" value="Python">Python
+				<input type="checkbox" name="Skill" value="Microsoft Office">Microsoft Office
+				<input type="checkbox" name="Skill" value="Premiere">Premiere
+			</form>
+		</td>
+	</tr>
+
+	<tr>
+		<td>Say Something</td>
+		<td colspan = "4">
+			<form>
+				<textarea name="Text" placeholder="Say something here." rows="4" cols="50" required></textarea>
+			</form>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan = "4">
+			<form method="post" action="http://www.deitel.com">
+				<input type="submit" value="提交">
+				<input type="reset" value="重設">
+			</form>
+		</td>
+	</tr>
+</tbody>
+
+</table>
+</body>
+</html>
